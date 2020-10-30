@@ -16,6 +16,7 @@ func main() {
 	// ルーティング
 	e.GET("/hello", MainPage())
 	e.GET("/hoge", MainPage())
+	e.GET("/fuga", MainPage())
 
 	// サーバー起動
 	e.Start(":1323")
